@@ -31,6 +31,7 @@ collections:
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Hint", name: "hint", widget: "string" }
       - { label: "Answer", name: "answer", widget: "string" }
+      - { label: "Correct Answer Text", name: "answer_correct_text", widget: "string", required: false}
       - {
           label: "Next Puzzle ID",
           name: "next_id",
