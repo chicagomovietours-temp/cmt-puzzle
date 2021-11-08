@@ -1,0 +1,41 @@
+site_url: "https://chicagomovietours.netlify.app"
+logo_url: "https://chicagomovietours.netlify.app/icon.png"
+backend:
+  name: git-gateway
+  branch: master
+  commit_messages:
+    create: 'Create {{collection}} "{{slug}}"'
+    update: 'Update {{collection}} "{{slug}}"'
+    delete: 'Delete {{collection}} "{{slug}}"'
+    uploadMedia: '[skip ci] Upload "{{path}}"'
+    deleteMedia: '[skip ci] Delete "{{path}}"'
+media_folder: "static/data/uploads"
+public_folder: "/data/uploads"
+collections:
+  - name: "puzzle"
+    label: "Puzzle"
+    identifier_field:
+    folder: "src/cms/puzzle"
+    create: true
+    extension: json
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Puzzle ID",
+          name: "id",
+          widget: "number",
+          min: 0,
+          value_type: "int",
+          hint: 'Unique ID, use for "Next Puzzle ID"',
+        }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Hint", name: "hint", widget: "string" }
+      - { label: "Answer", name: "answer", widget: "string" }
+      - {
+          label: "Next Puzzle ID",
+          name: "id",
+          widget: "number",
+          min: 0,
+          value_type: "int",
+          hint: "Unique ID of puzzle to go to next",
+        }
