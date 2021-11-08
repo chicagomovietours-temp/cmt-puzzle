@@ -14,7 +14,7 @@ public_folder: "/data/uploads"
 collections:
   - name: "puzzle"
     label: "Puzzle"
-    identifier_field:
+    identifier_field: "id"
     folder: "src/cms/puzzle"
     create: true
     extension: json
@@ -33,7 +33,7 @@ collections:
       - { label: "Answer", name: "answer", widget: "string" }
       - {
           label: "Next Puzzle ID",
-          name: "id",
+          name: "next_id",
           widget: "number",
           min: 0,
           value_type: "int",
