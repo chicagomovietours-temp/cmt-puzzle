@@ -9,7 +9,7 @@
   status = 200
 [[plugins]]
   package = "@netlify/plugin-gatsby"
-[[functions]]
+[functions]
   included_files = ["src/cms/config.json"]
-[[functions."auth"]]
+[functions."puzzle"]
   included_files = ["src/cms/puzzle/**.json"]
