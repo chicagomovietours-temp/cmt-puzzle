@@ -2,7 +2,7 @@ const fs = require("fs")
 exports.handler = async function (event, context) {
   if (event.httpMethod === "GET") {
     const { access_code } = require("../../cms/config.json")
-    if (event.headers?.authorization === `Bearer ${access_code}`) {
+    if (event.headers.authorization === `Bearer ${access_code}`) {
       let path = event.path.split("/")
       if (path.length >= 2 && path[path.length - 2] === "puzzle") {
         let text = path[path.length - 1]
