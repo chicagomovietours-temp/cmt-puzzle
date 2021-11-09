@@ -2,11 +2,6 @@
   command = "npm run build"
   functions = "src/functions"
   publish = "public"
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  force = true
-  status = 200
 [[plugins]]
   package = "@netlify/plugin-gatsby"
 [functions]
