@@ -12,6 +12,14 @@ backend:
 media_folder: "static/data/uploads"
 public_folder: "/data/uploads"
 collections:
+  - name: "config"
+    label: "Global Configuration"
+    files:
+      - label: "Configuration"
+        name: "config"
+        file: "src/cms/config.json"
+        fields:
+          - { label: "Access Code", name: "access_code", widget: "string" }
   - name: "puzzle"
     label: "Puzzle"
     identifier_field: "id"
@@ -31,7 +39,12 @@ collections:
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Hint", name: "hint", widget: "string" }
       - { label: "Answer", name: "answer", widget: "string" }
-      - { label: "Correct Answer Text", name: "answer_correct_text", widget: "string", required: false}
+      - {
+          label: "Correct Answer Text",
+          name: "answer_correct_text",
+          widget: "string",
+          required: false,
+        }
       - {
           label: "Next Puzzle ID",
           name: "next_id",
