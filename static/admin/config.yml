@@ -9,47 +9,78 @@ backend:
     delete: 'Delete {{collection}} "{{slug}}"'
     uploadMedia: '[skip ci] Upload "{{path}}"'
     deleteMedia: '[skip ci] Delete "{{path}}"'
+local_backend: true
 media_folder: "static/data/uploads"
 public_folder: "/data/uploads"
 collections:
-  - name: "config"
-    label: "Global Configuration"
-    files:
-      - label: "Configuration"
-        name: "config"
-        file: "src/cms/config.json"
-        fields:
-          - { label: "Access Code", name: "access_code", widget: "string" }
-  - name: "puzzle"
-    label: "Puzzle"
+  - name: "game_data"
+    label: "Game Data"
     identifier_field: "id"
-    folder: "src/cms/puzzle"
-    create: true
+    create: false
     extension: json
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - {
-          label: "Puzzle ID",
-          name: "id",
-          widget: "number",
-          min: 0,
-          value_type: "int",
-          hint: 'Unique ID, use for "Next Puzzle ID"',
-        }
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Hint", name: "hint", widget: "string" }
-      - { label: "Answer", name: "answer", widget: "string" }
-      - {
-          label: "Correct Answer Text",
-          name: "answer_correct_text",
-          widget: "string",
-          required: false,
-        }
-      - {
-          label: "Next Puzzle ID",
-          name: "next_id",
-          widget: "number",
-          min: 0,
-          value_type: "int",
-          hint: "Unique ID of puzzle to go to next",
-        }
+    files:
+      - label: "Games"
+        name: "games"
+        file: "src/cms/games.json"
+        fields:
+          - label: "Games"
+            name: "games"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - {
+                  label: "ID",
+                  name: "game_id",
+                  widget: "number",
+                  min: 0,
+                  value_type: "int",
+                  hint: 'Unique ID, use for "Next Puzzle ID"',
+                }
+              - { label: "Description", name: "description", widget: "string" }
+              - label: "Access Codes"
+                name: "access_codes"
+                widget: "list"
+                field:
+                  {
+                    label: "Access Code",
+                    name: "access_code",
+                    widget: "string",
+                  }
+              - label: "Puzzles"
+                name: "puzzles"
+                widget: "list"
+                fields:
+                  - {
+                      label: "Title",
+                      name: "title",
+                      widget: "string",
+                      hint: "Shown above everything else",
+                    }
+                  - {
+                      label: "Puzzle ID",
+                      name: "id",
+                      widget: "number",
+                      min: 0,
+                      value_type: "int",
+                      hint: "Unique ID - 0 is first - the Next button will go to the next ID (0 -> 1)",
+                    }
+                  - { label: "Image", name: "image", widget: "image" }
+                  - {
+                      label: "Hint",
+                      name: "hint",
+                      widget: "text",
+                      hint: "Displayed alongside answer box",
+                    }
+                  - {
+                      label: "Answer",
+                      name: "answer",
+                      widget: "string",
+                      hint: "This will be matched exactly when input, make sure your hint describes how to input your answer.",
+                    }
+                  - {
+                      label: "Correct Answer Text",
+                      name: "answer_correct_text",
+                      widget: "text",
+                      required: false,
+                      hint: "Displayed upon correct answer being entered",
+                    }

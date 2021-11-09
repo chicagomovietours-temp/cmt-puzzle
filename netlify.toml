@@ -5,6 +5,4 @@
 [[plugins]]
   package = "@netlify/plugin-gatsby"
 [functions]
-  included_files = ["src/cms/config.json"]
-[functions."puzzle"]
-  included_files = ["src/cms/puzzle/**.json"]
+  included_files = ["src/cms/puzzles.json"]

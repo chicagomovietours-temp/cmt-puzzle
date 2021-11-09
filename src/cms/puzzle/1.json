@@ -1,9 +1,0 @@
-{
-  "title": "Puzzle 1",
-  "id": 1,
-  "image": "/data/uploads/puzzle1.jpg",
-  "hint": "Take a look around, young ones! If you can tell me exactly how many street signs there are at this corner, I will let you pass!",
-  "answer": "2",
-  "answer_correct_text": "Curses, foiled again! Your grandfather told me only the smartest of kids would be able to solve my puzzle, but I know another person across the river that should be able to stump you. Here, your grandfather gave me a snapshot of the location.",
-  "next_id": 2
-}

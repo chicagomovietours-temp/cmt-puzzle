@@ -8,6 +8,10 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-create-client-paths`,
+      options: { prefixes: [`/game/*`] },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `./src/data/`,
