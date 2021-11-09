@@ -5,6 +5,8 @@
       "game_id": 0,
       "description": "Run around the city and find the answers!",
       "access_codes": ["MQKRS84TE5JS6NZL"],
+      "intro": "The main player ...",
+      "conclusion": "You did it!",
       "puzzles": [
         {
           "title": "Puzzle #1",

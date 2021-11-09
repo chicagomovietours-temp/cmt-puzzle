@@ -8,7 +8,8 @@ const Puzzle = ({
   hint,
   answer,
   answer_correct_text,
-  next_id,
+  gameId,
+  last,
 }) => {
   let [answerOK, setAnswerOK] = useState(-1)
   return (
@@ -18,7 +19,6 @@ const Puzzle = ({
       <p className="hint">{hint}</p>
       {answerOK !== 1 ? (
         <>
-          <p>Please enter your access code below to get started.</p>
           <form
             onSubmit={event => {
               event.preventDefault()
@@ -39,18 +39,29 @@ const Puzzle = ({
         <>
           <p className="correct-text">{answer_correct_text}</p>
           <p>
-            <Link className="next-button" to={`/puzzle/${id + 1}`}>
-              Next Puzzle
-            </Link>
+            {last ? (
+              <Link className="next-button" to={`/game/${gameId}/conclusion`}>
+                To The End
+              </Link>
+            ) : (
+              <Link
+                className="next-button"
+                to={`/game/${gameId}/puzzle/${id + 1}`}
+              >
+                Next Puzzle
+              </Link>
+            )}
           </p>
         </>
       )}
-      <Link
-        className="back-button"
-        to={id > 1 ? `/puzzle/${id - 1}` : `/puzzle`}
-      >
-        Go Back
-      </Link>
+      <p>
+        <Link
+          className="back-button"
+          to={id > 1 ? `/game/${gameId}/puzzle/${id - 1}` : `/game/${gameId}`}
+        >
+          Go Back
+        </Link>
+      </p>
     </div>
   )
 }

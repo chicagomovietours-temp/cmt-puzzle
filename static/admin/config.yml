@@ -46,6 +46,21 @@ collections:
                     name: "access_code",
                     widget: "string",
                   }
+              - label: "Intro"
+                name: "intro"
+                widget: "text"
+                required: false
+              - label: "Intro Image"
+                name: "intro_image"
+                widget: "image"
+                required: false
+              - label: "Conclusion"
+                name: "conclusion"
+                widget: "text"
+              - label: "Conclusion Image"
+                name: "conclusion_image"
+                widget: "image"
+                required: false
               - label: "Puzzles"
                 name: "puzzles"
                 widget: "list"

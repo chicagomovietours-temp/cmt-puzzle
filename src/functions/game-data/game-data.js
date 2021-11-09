@@ -40,8 +40,12 @@ exports.handler = async function (event, context) {
               try {
                 const gameData = {
                   name: game.name,
-                  id: game.gid,
+                  id: game.game_id,
                   description: game.description,
+                  intro: game.intro,
+                  intro_image: game.intro_image,
+                  conclusion: game.conclusion,
+                  conclusion_image: game.conclusion_image,
                   puzzles: game.puzzles,
                 }
                 return {

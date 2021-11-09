@@ -19,8 +19,8 @@ exports.handler = async function (event, context) {
           })
           .map(game => {
             return {
-              id: game.game_id,
               name: game.name,
+              id: game.game_id,
               description: game.description,
             }
           })
