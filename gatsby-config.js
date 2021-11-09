@@ -1,4 +1,3 @@
-console.log("BUILD ON: " + process.env.NODE_ENV)
 module.exports = {
   pathPrefix: "/",
   siteMetadata: {
