@@ -4,7 +4,9 @@
       "name": "Game #1",
       "game_id": 0,
       "description": "Run around the city and find the answers!",
-      "access_codes": ["MQKRS84TE5JS6NZL"],
+      "access_codes": [
+        "MQKRS84TE5JS6NZL"
+      ],
       "intro": "The main player ...",
       "conclusion": "You did it!",
       "puzzles": [
@@ -15,6 +17,14 @@
           "hint": "Take a look around, young ones! If you can tell me exactly how many street signs there are at this corner, I will let you pass!",
           "answer": "2",
           "answer_correct_text": "Curses, foiled again! Your grandfather told me only the smartest of kids would be able to solve my puzzle, but I know another person across the river that should be able to stump you. Here, your grandfather gave me a snapshot of the location."
+        },
+        {
+          "title": "Puzzle #2",
+          "id": 1,
+          "image": "/data/uploads/puzzle1.jpg",
+          "hint": "The answer is 9",
+          "answer": "9",
+          "answer_correct_text": "You did it wow"
         }
       ]
     }
