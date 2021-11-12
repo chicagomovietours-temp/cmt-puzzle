@@ -27,6 +27,82 @@
           "answer_correct_text": "You did it wow"
         }
       ]
+    },
+    {
+      "name": "Test Puzzles",
+      "game_id": 1,
+      "puzzles": [
+        {
+          "title": "Billy Goat Tavern",
+          "id": 0,
+          "hint": "When was the Billy Goat Tavern established?",
+          "answer_correct_text": "Woo you did it",
+          "answer": "1934",
+          "image": "/data/uploads/picture1.jpg"
+        },
+        {
+          "title": "J. Thompson Building inside",
+          "id": 1,
+          "hint": "What year was the building built?",
+          "answer": "1985",
+          "answer_correct_text": "Congrats",
+          "image": "/data/uploads/picture2.jpg"
+        },
+        {
+          "title": "J. Thompson Building outside",
+          "id": 2,
+          "hint": "How many floors are there in this building?",
+          "answer": "17",
+          "answer_correct_text": "Good job counting floors",
+          "image": "/data/uploads/picture3.jpg"
+        },
+        {
+          "title": "Snoopy in a blender",
+          "id": 3,
+          "hint": "What is the first and last name of the artist that created the statue pictured?",
+          "answer": "Jean Dubuffet",
+          "answer_correct_text": "Nice",
+          "image": "/data/uploads/picture4.jpg"
+        },
+        {
+          "title": "Chicago Theatre",
+          "id": 4,
+          "hint": "What color is the circle in the center of the sign in front of the theatre?",
+          "answer": "Blue",
+          "answer_correct_text": "You're not colorblind!",
+          "image": "/data/uploads/picture5.jpg"
+        },
+        {
+          "id": 5,
+          "title": "Marina City",
+          "hint": "How many sets of beams stabilize the bridge you are standing next to?",
+          "answer": "30",
+          "answer_correct_text": "You can count that high? Impressive!",
+          "image": "/data/uploads/picture6.jpg"
+        },
+        {
+          "title": "Carbide and Carbon Building",
+          "id": 6,
+          "hint": "There's a bus stop across the street from this building. What bus would I take to get to Inner Dr./Michigan Exp.?",
+          "answer": "146",
+          "answer_correct_text": "Bus schedules, am I right?",
+          "image": "/data/uploads/puzzle1.jpg"
+        },
+        {
+          "title": "Merchandise Mart",
+          "id": 7,
+          "hint": "How many bridges are connected to the merchandise mart?",
+          "answer": "2",
+          "answer_correct_text": "Bridges are cool huh",
+          "image": "/data/uploads/picture7.jpg"
+        }
+      ],
+      "intro": "Find all the clues! ",
+      "conclusion": "You found all the clues!",
+      "access_codes": [
+        "abcdefghijklmnopqrstuvwxyz"
+      ],
+      "description": "Test puzzles, 15467823"
     }
   ]
 }
