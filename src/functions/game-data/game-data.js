@@ -46,6 +46,7 @@ exports.handler = async function (event, context) {
                   intro_image: game.intro_image,
                   conclusion: game.conclusion,
                   conclusion_image: game.conclusion_image,
+                  sequences: game.sequences,
                   puzzles: game.puzzles,
                 }
                 return {

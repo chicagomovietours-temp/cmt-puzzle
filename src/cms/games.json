@@ -4,9 +4,7 @@
       "name": "Game #1",
       "game_id": 0,
       "description": "Run around the city and find the answers!",
-      "access_codes": [
-        "MQKRS84TE5JS6NZL"
-      ],
+      "access_codes": ["MQKRS84TE5JS6NZL"],
       "intro": "The main player ...",
       "conclusion": "You did it!",
       "puzzles": [
@@ -26,7 +24,8 @@
           "answer": "9",
           "answer_correct_text": "You did it wow"
         }
-      ]
+      ],
+      "sequences": ["1,2"]
     },
     {
       "name": "Test Puzzles",
@@ -37,6 +36,7 @@
           "id": 0,
           "hint": "When was the Billy Goat Tavern established?",
           "answer_correct_text": "Woo you did it",
+          "answer_incorrect_text": "Take a look at the sign.",
           "answer": "1934",
           "image": "/data/uploads/picture1.jpg"
         },
@@ -46,6 +46,7 @@
           "hint": "What year was the building built?",
           "answer": "1985",
           "answer_correct_text": "Congrats",
+          "answer_incorrect_text": "Look around, you may need to ask someone.",
           "image": "/data/uploads/picture2.jpg"
         },
         {
@@ -54,6 +55,7 @@
           "hint": "How many floors are there in this building?",
           "answer": "17",
           "answer_correct_text": "Good job counting floors",
+          "answer_incorrect_text": "Head inside, it’s easier to see from in there.",
           "image": "/data/uploads/picture3.jpg"
         },
         {
@@ -62,14 +64,16 @@
           "hint": "What is the first and last name of the artist that created the statue pictured?",
           "answer": "Jean Dubuffet",
           "answer_correct_text": "Nice",
+          "answer_incorrect_text": "See if you can find a plaque around the base of the statue.",
           "image": "/data/uploads/picture4.jpg"
         },
         {
           "title": "Chicago Theatre",
           "id": 4,
           "hint": "What color is the circle in the center of the sign in front of the theatre?",
-          "answer": "Blue",
+          "answer": "blue",
           "answer_correct_text": "You're not colorblind!",
+          "answer_incorrect_text": "Make sure you have the color of the sign's center itself, not the lights. Answer in lowercase.",
           "image": "/data/uploads/picture5.jpg"
         },
         {
@@ -78,6 +82,7 @@
           "hint": "How many sets of beams stabilize the bridge you are standing next to?",
           "answer": "30",
           "answer_correct_text": "You can count that high? Impressive!",
+          "answer_incorrect_text": "Remember to count both sides of the bridge.",
           "image": "/data/uploads/picture6.jpg"
         },
         {
@@ -86,6 +91,7 @@
           "hint": "There's a bus stop across the street from this building. What bus would I take to get to Inner Dr./Michigan Exp.?",
           "answer": "146",
           "answer_correct_text": "Bus schedules, am I right?",
+          "answer_incorrect_text": "Try checking the sign at the bus stop on the other side of Michigan Ave.",
           "image": "/data/uploads/puzzle1.jpg"
         },
         {
@@ -94,16 +100,20 @@
           "hint": "How many bridges are connected to the merchandise mart?",
           "answer": "2",
           "answer_correct_text": "Bridges are cool huh",
+          "answer_incorrect_text": "Make sure to walk the full perimeter of the building.",
           "image": "/data/uploads/picture7.jpg"
         }
       ],
       "intro": "Find all the clues! ",
       "conclusion": "You found all the clues!",
-      "access_codes": [
-        "abcdefghijklmnopqrstuvwxyz",
-        "MQKRS84TE5JS6NZL"
-      ],
-      "description": "Test puzzles, 15467823"
+      "access_codes": ["abcdefghijklmnopqrstuvwxyz", "MQKRS84TE5JS6NZL"],
+      "description": "Test puzzles, 15467823",
+      "sequences": [
+        "5,3,4,2,0,7,6,1",
+        "5,4,1,6,2,0,3,7",
+        "0,4,3,5,6,7,1,2",
+        "5,4,3,6,7,1,0,2"
+      ]
     }
   ]
 }

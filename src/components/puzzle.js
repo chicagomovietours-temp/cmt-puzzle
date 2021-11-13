@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Link } from "gatsby"
 
 const Puzzle = ({
@@ -8,10 +8,16 @@ const Puzzle = ({
   hint,
   answer,
   answer_correct_text,
+  answer_incorrect_text,
   gameId,
-  last,
+  prev,
+  next,
 }) => {
   let [answerOK, setAnswerOK] = useState(-1)
+  useEffect(() => {
+    // Make sure answer state resets when ID changes
+    setAnswerOK(-1)
+  }, [id])
   return (
     <div className="puzzle" id={`puzzle-${id}`}>
       <h1 className="title">{title}</h1>
@@ -33,20 +39,26 @@ const Puzzle = ({
             <input type="text" id="answer" name="answer" />
             <input type="submit" value="Submit" />
           </form>
-          {answerOK === 0 ? <p>Incorrect answer! Try again.</p> : <></>}
+          {answerOK === 0 ? (
+            <p>{answer_incorrect_text || "Incorrect answer! Try again."}</p>
+          ) : (
+            <></>
+          )}
         </>
       ) : (
         <>
-          <p className="correct-text">{answer_correct_text}</p>
+          <p className="correct-text">
+            {answer_correct_text || "Correct answer!"}
+          </p>
           <p>
-            {last ? (
+            {next === undefined ? (
               <Link className="next-button" to={`/game/${gameId}/conclusion`}>
                 To The End
               </Link>
             ) : (
               <Link
                 className="next-button"
-                to={`/game/${gameId}/puzzle/${id + 1}`}
+                to={`/game/${gameId}/puzzle/${next}`}
               >
                 Next Puzzle
               </Link>
@@ -57,7 +69,11 @@ const Puzzle = ({
       <p>
         <Link
           className="back-button"
-          to={id > 1 ? `/game/${gameId}/puzzle/${id - 1}` : `/game/${gameId}`}
+          to={
+            prev === undefined
+              ? `/game/${gameId}`
+              : `/game/${gameId}/puzzle/${prev}`
+          }
         >
           Go Back
         </Link>

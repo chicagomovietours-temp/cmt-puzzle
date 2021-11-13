@@ -46,6 +46,16 @@ collections:
                     name: "access_code",
                     widget: "string",
                   }
+              - label: "Puzzle Sequences"
+                name: "sequences"
+                widget: "list"
+                field:
+                  {
+                    label: "Puzzle ID Sequence",
+                    name: "sequence",
+                    widget: "string",
+                    hint: "Ordered list of puzzle IDs, separate IDs with commas",
+                  }
               - label: "Intro"
                 name: "intro"
                 widget: "text"
@@ -98,4 +108,11 @@ collections:
                       widget: "text",
                       required: false,
                       hint: "Displayed upon correct answer being entered",
+                    }
+                  - {
+                      label: "Incorrect Answer Text",
+                      name: "answer_incorrect_text",
+                      widget: "text",
+                      required: false,
+                      hint: "Displayed upon incorrect answer being entered",
                     }
