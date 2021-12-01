@@ -4,7 +4,9 @@
       "name": "Game #1",
       "game_id": 0,
       "description": "Run around the city and find the answers!",
-      "access_codes": ["MQKRS84TE5JS6NZL"],
+      "access_codes": [
+        "MQKRS84TE5JS6NZL"
+      ],
       "intro": "The main player ...",
       "conclusion": "You did it!",
       "puzzles": [
@@ -25,7 +27,9 @@
           "answer_correct_text": "You did it wow"
         }
       ],
-      "sequences": ["1,2"]
+      "sequences": [
+        "1,2"
+      ]
     },
     {
       "name": "Test Puzzles",
@@ -34,8 +38,8 @@
         {
           "title": "Billy Goat Tavern",
           "id": 0,
-          "hint": "When was the Billy Goat Tavern established?",
-          "answer_correct_text": "Woo you did it",
+          "hint": "As Joey sees the door, he gives out a loud “Billygoat Tavern?! Haha! Bet you there’s a lot of… OLD GOATS IN THERE!!!”. Jenna just sighs and goes on to look for clues. Well I don’t know what grandpa was doing here, but I do have a puzzle to solve. When was this place even made? Check the building, or the door. It's gotta be around here somewhere.” They then say, “Hey! I remember those reruns of SNL that grandpa used to show! There were a bunch of these done here! Wasn’t Bill Murray in here for that show! A picture of this will definitely get us a chance to save the T-Line!” Joey then shouts, “Hurry! We gotta get to the next puzzle, before time runs out for us and grandpa!”\nAnd the puzzle is: what year was the Tavern established?",
+          "answer_correct_text": "\"Awesome! Good Job!\"",
           "answer_incorrect_text": "Take a look at the sign.",
           "answer": "1934",
           "image": "/data/uploads/picture1.jpg"
@@ -43,9 +47,9 @@
         {
           "title": "J. Thompson Building inside",
           "id": 1,
-          "hint": "What year was the building built?",
+          "hint": " \"Oh! This is the building from this scary movie grandpa told us about. I am trying to remember the name… what was it? I know, it’s 'The Fugitive'. The movie where the hero was accused of murdering his wife, was sentenced to death, was able to escape, and went on investigation to find out who the real murderer is. I remember watching it with grandpa! He would never tell us what was going to happen, even if he knew it was going to scare us. At the moment, we were so frightened, but he knew what he was doing by not spoiling such a good movie! We should hurry up and take a picture next to it, but we really have to speed up. We can’t allow ourselves to disappear. This building looks like it is not too old… Do you guys have any idea when it was built?\"\nAnd the puzzle is: what year was the J. Thompson Building built in?",
           "answer": "1985",
-          "answer_correct_text": "Congrats",
+          "answer_correct_text": " Phew! Thankfully we solved it pretty fast, I bet more weird stuff would have happened to us otherwise. On to the next!",
           "answer_incorrect_text": "Look around, you may need to ask someone.",
           "image": "/data/uploads/picture2.jpg"
         },
@@ -61,16 +65,16 @@
         {
           "title": "Snoopy in a blender",
           "id": 3,
-          "hint": "What is the first and last name of the artist that created the statue pictured?",
-          "answer": "Jean Dubuffet",
-          "answer_correct_text": "Nice",
+          "hint": "Joey: “Those last two pictures that we took from the sets of “The Fugitive” and “The Watcher” were super cool.” \nJenna: “I know! I am having such a fun time learning about all the movies that Grandpa liked and seeing where they were filmed in real life. Hey, do you recognize that super weird shaped statue over there? I think it’s the one that Grandpa always used to call ‘Snoopy in a Blender’.” \nJoey: “I think you’re right, but did you know that it's actually called “Monument with Standing Beast” because it consists of four elements that suggest a standing animal, a tree, a portal and an architectural form. And it was designed to invite the viewer to enter the sculpture.” \nJenna: “We should definitely take a picture even if it doesn’t save the T-line since Grandpa liked this statue so much.” \nJoey “I agree. Then on to the next clue.”\nAnd the puzzle is: what is the first and last name of the artist that created the statue pictured? (all lower case)",
+          "answer": "jean dubuffet",
+          "answer_correct_text": "Good job!",
           "answer_incorrect_text": "See if you can find a plaque around the base of the statue.",
           "image": "/data/uploads/picture4.jpg"
         },
         {
           "title": "Chicago Theatre",
           "id": 4,
-          "hint": "What color is the circle in the center of the sign in front of the theatre?",
+          "hint": "Jenna: I have been having so much fun exploring the city and learning about movi- oh, this theater was in “Dark Knight”! Harvey Dent and his girlfriend come here to watch the Russian ballet, but it turns out that the performance was canceled.\nJoey: Yes, but it’s called the Chicago Theatre and it is more than just a movie landmark. The Chicago Theatre was the first large, lavish movie palace in America and was the prototype for all others. Its inside is a history-filled journey, from the inception of this majestic venue in 1921, all the way to its present-day incarnation. It is built in French Baroque style, and the exterior features a miniature replica of Paris’ Arc de Triomphe! Did you know that the vertical sign “C-H-I-C-A-G-O” is nearly six stories tall? \nJenna: Wow, that’s amazing! Let’s take a picture of the sign!\nWhat color is the circle in the center of the sign in front of the theatre?",
           "answer": "blue",
           "answer_correct_text": "You're not colorblind!",
           "answer_incorrect_text": "Make sure you have the color of the sign's center itself, not the lights. Answer in lowercase.",
@@ -88,9 +92,9 @@
         {
           "title": "Carbide and Carbon Building",
           "id": 6,
-          "hint": "There's a bus stop across the street from this building. What bus would I take to get to Inner Dr./Michigan Exp.?",
+          "hint": "Joey gets to your location and recognizes this place instantly. “I know this place! The Movie ‘Wanted’ was shot here in 2008. A guy discovers that he is the son of a professional assassin, and that he has super cool superhuman fighting abilities! They had actors and actresses like James McAvoy, Morgan Freeman, Angelina Jolie, and Kristen Hager!” “Oh yeah? Well if you know so much, what’s the answer to the puzzle?” retorts Jenna. Joey doesn’t seem phased though. “I know it. I just gotta refresh myself. But I know there's a clue around here somewhere. I just gotta try checking the sign at the bus stop on the other side of Michigan Avenue.”\nAnd the puzzle is: there’s a bus stop across the street from this building. What bus would I take to get to Inner Dr./Michigan Exp.?",
           "answer": "146",
-          "answer_correct_text": "Bus schedules, am I right?",
+          "answer_correct_text": "“We got it! We’re not gonna let grandpa down, and I’m not gonna disappear from the timeline! Let's get to the other puzzles!”",
           "answer_incorrect_text": "Try checking the sign at the bus stop on the other side of Michigan Ave.",
           "image": "/data/uploads/puzzle1.jpg"
         },
@@ -104,9 +108,12 @@
           "image": "/data/uploads/picture7.jpg"
         }
       ],
-      "intro": "Find all the clues! ",
+      "intro": "                   After hearing that Chicago is planning on closing down the Timeline Rail System (T-Line), Joey and his younger sister Jenna went to visit their beloved grandfather. When they went to visit him, he was bedridden, and seemingly already a ghost! Their grandfather tells the two that a few days ago he started to feel sick and has been in bed ever since. He begins to reminisce about how he used to direct movies and urged the two to go watch his movies.\n\tThey know that the T-Line was an important part of his work when he made movies, as it could travel to many places, and many time periods in Chicago’s history! But with the rail line soon to be decommissioned, their grandfather may be lost in time along with the train! If you can help them find the perfect pictures of famous areas in Chicago Movie History, they may be able to get to city hall in time before they shut down the T-Line!\n",
       "conclusion": "You found all the clues!",
-      "access_codes": ["abcdefghijklmnopqrstuvwxyz", "MQKRS84TE5JS6NZL"],
+      "access_codes": [
+        "abcdefghijklmnopqrstuvwxyz",
+        "MQKRS84TE5JS6NZL"
+      ],
       "description": "Test puzzles, 15467823",
       "sequences": [
         "5,3,4,2,0,7,6,1",
