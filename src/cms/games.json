@@ -25,9 +25,9 @@
         {
           "title": "J. Thompson Building outside",
           "id": 2,
-          "hint": "How many floors are there in this building?",
+          "hint": "\"Oh, I heard 'The Watcher' was filmed here! I bet we should 'Watch' the building for any surprises, huh Jenna?\" Jenna lets out a long sigh.\nAnd  the puzzle is: how many floors are there in this building?",
           "answer": "17",
-          "answer_correct_text": "Good job counting floors",
+          "answer_correct_text": "\"Woah, this building is a lot bigger than I thought it was from the movie!\"",
           "answer_incorrect_text": "Head inside, it’s easier to see from in there.",
           "image": "/data/uploads/picture3.jpg"
         },
@@ -43,7 +43,7 @@
         {
           "title": "Chicago Theatre",
           "id": 4,
-          "hint": "Jenna: I have been having so much fun exploring the city and learning about movi- oh, this theater was in “Dark Knight”! Harvey Dent and his girlfriend come here to watch the Russian ballet, but it turns out that the performance was canceled.\nJoey: Yes, but it’s called the Chicago Theatre and it is more than just a movie landmark. The Chicago Theatre was the first large, lavish movie palace in America and was the prototype for all others. Its inside is a history-filled journey, from the inception of this majestic venue in 1921, all the way to its present-day incarnation. It is built in French Baroque style, and the exterior features a miniature replica of Paris’ Arc de Triomphe! Did you know that the vertical sign “C-H-I-C-A-G-O” is nearly six stories tall? \nJenna: Wow, that’s amazing! Let’s take a picture of the sign!\nWhat color is the circle in the center of the sign in front of the theatre?",
+          "hint": "Jenna: \"I have been having so much fun exploring the city and learning about movi- oh, this theater was in “Dark Knight”! Harvey Dent and his girlfriend come here to watch the Russian ballet, but it turns out that the performance was canceled.\"\nJoey: \"Yes, but it’s called the Chicago Theatre and it is more than just a movie landmark. The Chicago Theatre was the first large, lavish movie palace in America and was the prototype for all others. Its inside is a history-filled journey, from the inception of this majestic venue in 1921, all the way to its present-day incarnation. It is built in French Baroque style, and the exterior features a miniature replica of Paris’ Arc de Triomphe! Did you know that the vertical sign 'C-H-I-C-A-G-O' is nearly six stories tall?\"\nJenna: \"Wow, that’s amazing! Let’s take a picture of the sign!\"\nWhat color is the circle in the center of the sign in front of the theatre?",
           "answer": "blue",
           "answer_correct_text": "You're not colorblind!",
           "answer_incorrect_text": "Make sure you have the color of the sign's center itself, not the lights. Answer in lowercase.",
@@ -52,9 +52,9 @@
         {
           "id": 5,
           "title": "Marina City",
-          "hint": "How many sets of beams stabilize the bridge you are standing next to?",
+          "hint": "It's impossible not to recognize this place… that building right there is where the villain of the movie The Hunter is driving up right before he dies falling into the river. We for sure want to take a picture of this one, that scene was so epic! \nThe villain was originally meant to survive the crash, but when they filmed the scene the impact with the water was so harsh that the producer changed the script.\nAnd the Puzzle is: how many sets of beams stabilize the bridge you are standing next to?",
           "answer": "30",
-          "answer_correct_text": "You can count that high? Impressive!",
+          "answer_correct_text": "That was hard to crack but we did it!",
           "answer_incorrect_text": "Remember to count both sides of the bridge.",
           "image": "/data/uploads/picture6.jpg"
         },
@@ -70,14 +70,14 @@
         {
           "title": "Merchandise Mart",
           "id": 7,
-          "hint": "How many bridges are connected to the merchandise mart?",
+          "hint": "\"Grandpa kept saying we were too young to watch The Untouchables, Joey? How do you know so much about it?\" \"Let's just say I have my ways outside the law.\"\nAnd the puzzle is: how many bridges are connected to the Merchandise Mart?",
           "answer": "2",
-          "answer_correct_text": "Bridges are cool huh",
+          "answer_correct_text": "Nice! Keep moving forward!",
           "answer_incorrect_text": "Make sure to walk the full perimeter of the building.",
           "image": "/data/uploads/picture7.jpg"
         }
       ],
-      "intro": "                   After hearing that Chicago is planning on closing down the Timeline Rail System (T-Line), Joey and his younger sister Jenna went to visit their beloved grandfather. When they went to visit him, he was bedridden, and seemingly already a ghost! Their grandfather tells the two that a few days ago he started to feel sick and has been in bed ever since. He begins to reminisce about how he used to direct movies and urged the two to go watch his movies.\n\tThey know that the T-Line was an important part of his work when he made movies, as it could travel to many places, and many time periods in Chicago’s history! But with the rail line soon to be decommissioned, their grandfather may be lost in time along with the train! If you can help them find the perfect pictures of famous areas in Chicago Movie History, they may be able to get to city hall in time before they shut down the T-Line!\n",
+      "intro": "\tAfter hearing that Chicago is planning on closing down the Timeline Rail System (T-Line), Joey and his younger sister Jenna went to visit their beloved grandfather. When they went to visit him, he was bedridden, and seemingly already a ghost! Their grandfather tells the two that a few days ago he started to feel sick and has been in bed ever since. He begins to reminisce about how he used to direct movies and urged the two to go watch his movies.\n\tThey know that the T-Line was an important part of his work when he made movies, as it could travel to many places, and many time periods in Chicago’s history! But with the rail line soon to be decommissioned, their grandfather may be lost in time along with the train! If you can help them find the perfect pictures of famous areas in Chicago Movie History, they may be able to get to city hall in time before they shut down the T-Line!\n-> This game is about taking photos and answering questions about the locations where you took said photos. Make your way to the location pictured in each photo and try to line yourself up exactly where you think the photo was taken.  Once there, you can attempt to answer the puzzle by looking around the area (some might require a decent amount of movement!). A hint will be provided if you answer wrong, and you will be allowed to see the next picture if you answer correctly.",
       "conclusion": "You found all the clues!",
       "access_codes": [
         "abcdefghijklmnopqrstuvwxyz",
@@ -85,10 +85,10 @@
       ],
       "description": "Pick this one!",
       "sequences": [
-        "5,3,4,2,0,7,6,1",
+        "3,5,4,2,0,7,6,1",
         "5,4,1,6,2,0,3,7",
         "0,4,3,5,6,7,1,2",
-        "0,4,3,6,7,1,5,2"
+        "4,0,3,6,7,1,5,2"
       ]
     }
   ]
